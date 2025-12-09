@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BOOTIN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <header class="shadow-sm p-3 bg-white border-bottom rounded sticky-top">
+        <div class="container-fluid px-5 p-2 d-none d-md-block">
+            <div class="row d-flex justify-content-between align-items-center ">
+
+                <div class="col">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control border-0 border-bottom p-2 fs-5" placeholder="Search Books....." aria-label="Recipient’s username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary border-0 border-bottom p-2 fs-5" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+                    </div>    
+                </div>
+
+                <div class="col d-flex align-items-center justify-content-center">
+                    <h2>BOOTIN</h2>
+                </div>
+
+                <div class="col d-flex fs-4 gap-4 justify-content-end">
+                   <article>
+                        <i class="bi bi-suit-heart"></i>
+                        <div class="Notification">3</div>
+                   </article>
+                     <article>
+                        <i class="bi bi-bookmark"></i>
+                        <div class="Notification">0</div>
+                   </article>
+                     <article>
+                        <i class="bi bi-person-fill"></i>
+                   </article>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+
+                    <a class="navbar-brand d-md-none" href="#">BOOTIN</a>
+                    <button class="navbar-toggler d-md-none " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav d-flex justify-content-center w-100 gap-4">
+                            <li class="nav-item">
+                                <a class="nav-link active nav_hover Page_actuelle" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active nav_hover" aria-current="page" href="Shop.html">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active nav_hover" aria-current="page" href="Post.html">Post</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active nav_hover" aria-current="page" href="Contact.html">Contact</a>
+                            </li>
+                      </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="container-fluid bg-secondary-subtle mt-3 p-3">
+        <div class="container d-flex flex-column justify-content-center flex-md-row gap-4 mb-3 mt-3 m-auto">
+        
+            <div class="card rounded-0 justify-content-center col-6 col-md-10 cont_bg_color1">
+                <div class="row g-0">
+                    <div class="col-md-8 ">
+                        <div class="card-body">
+                          <p class="card-title text-danger m-0">BOOKS EVENT 2019</p>
+                          <h3 class="card-text">SALE UP TO <br> 20% OFF </h3>
+                           <button class="btn btn-danger p-2 w-50">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="Images/book.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                </div>
+            </div>
+
+        
+            <div class="card p-1 rounded-0 cont_bg_color2" style="width: 18rem;">
+                <img src="Images/book2.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <button class="btn btn-success">Sale -50%</button>
+                  <h4 class="card-title">Six Little <br> Brids</h4>
+                </div>
+            </div>
+        
+        </div>
+
+
+        <div class="container mb-3">
+            
+            <div class="row g-3">
+            
+                 <div class="col-12 col-md-4 col-lg-2">
+                     <div class="card flex-row justify-content-center align-items-center gap-2 bg-secondary-subtle rounded-0 border border-dark card_livre" style="height: 100px;">
+                         <div class="cercle_bookin d-flex justify-content-center align-items-center bg-white">
+                             <i class="bi bi-book"></i>
+                         </div>
+                         <h4 class="m-0">Classic</h4>
+                     </div>
+                 </div>
+             
+                 <div class="col-12 col-md-4 col-lg-2">
+                     <div class="card flex-row justify-content-center align-items-center gap-2 bg-secondary-subtle rounded-0 border border-dark card_livre" style="height: 100px">
+                         <div class="cercle_bookin d-flex justify-content-center align-items-center bg-white">
+                             <i class="bi bi-journal-medical"></i>
+                         </div>
+                         <h4 class="m-0">Drama</h4>
+                     </div>
+                 </div>
+             
+                 <div class="col-12 col-md-4 col-lg-2">
+                     <div class="card flex-row justify-content-center align-items-center gap-2 bg-secondary-subtle rounded-0 border border-dark card_livre" style="height: 100px">
+                         <div class="cercle_bookin d-flex justify-content-center align-items-center bg-white">
+                             <i class="bi bi-boxes"></i>
+                         </div>
+                         <h4 class="m-0">For Kid</h4>
+                     </div>
+                 </div>
+             
+                 <div class="col-12 col-md-6 col-lg-2">
+                     <div class="card flex-row justify-content-center align-items-center gap-2 bg-secondary-subtle rounded-0 border border-dark card_livre" style="height: 100px">
+                         <div class="cercle_bookin d-flex justify-content-center align-items-center bg-white">
+                             <i class="bi bi-emoji-angry-fill"></i>
+                         </div>
+                         <h4 class="m-0">Horror</h4>
+                     </div>
+                 </div>
+             
+                 <div class="col-12 col-md-6 col-lg-2">
+                     <div class="card flex-row justify-content-center align-items-center gap-2 bg-secondary-subtle rounded-0 border border-dark card_livre" style="height: 100px">
+                         <div class="cercle_bookin d-flex justify-content-center align-items-center bg-white">
+                             <i class="bi bi-heart"></i>
+                         </div>
+                         <h4 class="m-0">Love</h4>
+                     </div>
+                 </div>
+
+             </div>
+
+        </div>
+      
+    </section>
+
+    <section class="container d-flex flex-lg-row flex-column mt-5">
+
+        <div class="container">
+            <h3 class="m-3"> <span class="underline-red">Featu</span>red</h3>
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-6 col-md-6">
+                    <div class="card align-items-center bg-secondary-subtle border-0">
+                        <img src="Images/livre1.png" class="card-img-top w-75" alt="...">
+                        <div class="card-body text-center gap-2 w-75">
+                            <h5 class="card-title">Frank Enstein</h5>
+                            <p class="card-text">By Nicolas Sumpir</p>
+                            <article class="mb-1">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </article>
+                            <p class="Price">14400 F CFA</p>
+                            <a href="#" class="btn btn-danger">Add to Card</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Card 2 -->
+                <div class="col-6 col-md-6">
+                    <div class="card align-items-center bg-secondary-subtle border-0">
+                        <img src="Images/livre2.png" class="card-img-top w-75" alt="...">
+                        <div class="card-body text-center gap-2 w-75">
+                            <h5 class="card-title">Thousand Seed</h5>
+                            <p class="card-text">By Nicolas Sumpir</p>
+                            <article class="mb-1">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </article>
+                            <p class="Price">14400 F CFA</p>
+                            <a href="#" class="btn btn-danger">Add to Card</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Card 3 -->
+                <div class="col-6 col-md-6">
+                    <div class="card align-items-center bg-secondary-subtle border-0">
+                        <img src="Images/livre3.png" class="card-img-top w-75" alt="...">
+                        <div class="card-body text-center gap-2 w-75">
+                            <h5 class="card-title">Thousand Seed</h5>
+                            <p class="card-text">By Nicolas Sumpir</p>
+                            <article class="mb-1">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </article>
+                            <p class="Price">14400 F CFA</p>
+                            <a href="#" class="btn btn-danger">Add to Card</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Card 4 -->
+                <div class="col-6 col-md-6">
+                    <div class="card align-items-center bg-secondary-subtle border-0">
+                        <img src="Images/livre4.png" class="card-img-top w-75" alt="...">
+                        <div class="card-body text-center gap-2 w-75">
+                            <h5 class="card-title">Thousand Seed</h5>
+                            <p class="card-text">By Nicolas Sumpir</p>
+                            <article class="mb-1">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </article>
+                            <p class="Price">14400 F CFA</p>
+                            <a href="#" class="btn btn-danger">Add to Card</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Card 5 -->
+                <div class="col-6 col-md-6">
+                    <div class="card align-items-center bg-secondary-subtle border-0">
+                        <img src="Images/livre5.png" class="card-img-top w-75" alt="...">
+                        <div class="card-body text-center gap-2 w-75">
+                            <h5 class="card-title">Thousand Seed</h5>
+                            <p class="card-text">By Nicolas Sumpir</p>
+                            <article class="mb-1">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </article>
+                            <p class="Price">14400 F CFA</p>
+                            <a href="#" class="btn btn-danger">Add to Card</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Card 6 -->
+                <div class="col-6 col-md-6">
+                    <div class="card align-items-center bg-secondary-subtle border-0">
+                        <img src="Images/livre6.png" class="card-img-top w-75" alt="...">
+                        <div class="card-body text-center gap-2 w-75">
+                            <h5 class="card-title">Thousand Seed</h5>
+                            <p class="card-text">By Nicolas Sumpir</p>
+                            <article class="mb-1">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </article>
+                            <p class="Price">14400 F CFA</p>
+                            <a href="#" class="btn btn-danger">Add to Card</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- --------------------------------------------------- -->
+
+        <div class="container">
+            <h3 class="m-3"> <span class="underline-red">Best</span>selling products</h3>
+            <div class="container">
+
+                <div class="card mb-3 border-0" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="Images/livre1.png" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Frank Enstein</h5>
+                                <p class="card-text">By Nicolas Sumpir</p>
+                                <article class="mb-1">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </article>
+                                <p class="Price">14400 F CFA</p>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3 border-0" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="Images/livre2.png" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Thousand Seed</h5>
+                                <p class="card-text">By Nicolas Sumpir</p>
+                                <article class="mb-1">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </article>
+                                <p class="Price">14400 F CFA</p>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3 border-0" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="Images/livre3.png" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Thousand Seed</h5>
+                                <p class="card-text">By Nicolas Sumpir</p>
+                                <article class="mb-1">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </article>
+                                <p class="Price">14400 F CFA</p>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="container mt-4">
+        <div class="card-group gap-4">
+
+            <div class="card bg-primary-subtle justify-content-center align-items-center">
+              <img src="Images/liv1.png" class="card-img-top w-75" alt="...">
+              <div class="card-body w-75 text-center">
+                <a href="#" class="btn btn-danger mb-3">45% off</a>
+                <h5 class="card-title">Get 20% off on your first order</h5>
+              </div>
+            </div>
+
+            <div class="card bg-success-subtle justify-content-center align-items-center">
+              <img src="Images/liv2.png" class="card-img-top w-75" alt="...">
+              <div class="card-body w-75 text-center">
+                <a href="#" class="btn btn-danger mb-3">45% off</a>
+                <h5 class="card-title">Get 20% off on your first order</h5>
+              </div>
+            </div>
+
+            <div class="card bg-secondary-subtle justify-content-center align-items-center">
+              <img src="Images/liv3.webp" class="card-img-top w-75" alt="...">
+              <div class="card-body w-75 text-center">
+                <a href="#" class="btn btn-danger mb-3">45% off</a>
+                <h5 class="card-title">Get 20% off on your first order</h5>
+              </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container-fluid bg-secondary-subtle p-3 mt-4 text-center  d-none d-md-block">
+        <h3 class="m-3"> Speci<span class="underline-red">al Prod</span>ucts</h3>
+        <div class="container">
+            <div class="row g-3 align-items-center justify-content-center">
+            
+                <!-- Card 1 -->
+                <div class="col-12 col-md-4 col-lg-2">
+                    <div class="card bg-secondary-subtle border-0 h-100">
+                        <img src="Images/spec1.png" class="img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Special Product 1</h5>
+                            <p class="card-text">By author name</p>
+                            <article class="d-flex gap-2">
+                                <p class="text-decoration-line-through text-muted">17.500 FCFA</p>
+                                <span class="Price">20% Off</span>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Card 2 -->
+                <div class="col-12 col-md-4 col-lg-2">
+                    <div class="card bg-secondary-subtle border-0 h-100">
+                        <img src="Images/spec2.png" class="img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Special Product 2</h5>
+                            <p class="card-text">By author name</p>
+                            <article class="d-flex gap-2">
+                                <p class="text-decoration-line-through text-muted">17.500 FCFA</p>
+                                <span class="Price">20% Off</span>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Card 3 -->
+                <div class="col-12 col-md-4 col-lg-2">
+                    <div class="card bg-secondary-subtle border-0 h-100">
+                        <img src="Images/spec3.png" class="img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Special Product 3</h5>
+                            <p class="card-text">By author name</p>
+                            <article class="d-flex gap-2">
+                                <p class="text-decoration-line-through text-muted">17.500 FCFA</p>
+                                <span class="Price">20% Off</span>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Card 4 → caché sur tablette et mobile -->
+                <div class="col-12 col-md-4 col-lg-2 d-none d-lg-block">
+                    <div class="card bg-secondary-subtle border-0 h-100">
+                        <img src="Images/spec4.png" class="img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Special Product 4</h5>
+                            <p class="card-text">By author name</p>
+                            <article class="d-flex gap-2">
+                                <p class="text-decoration-line-through text-muted">17.500 FCFA</p>
+                                <span class="Price">20% Off</span>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Card 5 → caché sur tablette et mobile -->
+                <div class="col-12 col-md-4 col-lg-2 d-none d-lg-block">
+                    <div class="card bg-secondary-subtle border-0 h-100">
+                        <img src="Images/spec5.png" class="img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Special Product 5</h5>
+                            <p class="card-text">By author name</p>
+                            <article class="d-flex gap-2">
+                                <p class="text-decoration-line-through text-muted">17.500 FCFA</p>
+                                <span class="Price">20% Off</span>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+   
+    <section class="container d-flex justify-content-center align-items-center mt-5">
+        <h3 class="m-3"> Blo<span class="underline-red py-3">g Upda</span>ted</h3>
+    </section>
+    
+    <section class="container d-flex flex-lg-row flex-column gap-3 mt-5">
+        <div class="d-flex flex-column">
+
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="Images/blog.jpg" class="img-fluid rounded-start h-100" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="card-text Price">May 30, 2018 / Life Style</p>
+                      <h5 class="card-title">Book News Missed This Week</h5>
+                      <p class="card-text">By Admin</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="Images/blog2.jpg" class="img-fluid rounded-start h-100" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="card-text Price">May 30, 2018 / Life Style</p>
+                      <h5 class="card-title">Book News Missed This Week</h5>
+                      <p class="card-text">By Admin</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="Images/blog3.jpg" class="img-fluid rounded-start h-100" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="card-text Price">May 30, 2018 / Life Style</p>
+                      <h5 class="card-title">Book News Missed This Week</h5>
+                      <p class="card-text">By Admin</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card mb-3 border-0 d-none d-lg-block">
+            <img src="Images/blog4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text Price">April 19, 2019 / Fashion</p>
+                <h5 class="card-title">Lorem ipsum dolor sit amet consectetur.</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
+
+        <div class="card p-2 flex-column align-items-center justify-content-center text-center bg-danger-subtle text-white border-0">
+            <h3>Stay in touch with Our Updates</h3>
+            <p>Newsletter to get in touch</p>
+            <div class="">
+                <div class="input-group mb-3 ">
+                    <input type="text" class="form-control bg-danger-subtle border-0 border-3 border-bottom p-2" placeholder="Search Books....." aria-label="Recipient’s username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary border-0 border-bottom p-2" type="button" id="button-addon2">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>    
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid bg-secondary-subtle mt-4 p-4">
+        <div class="container">
+           <div class="container mt-4">
+                <div class="row g-3">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card flex-row gap-3 p-3 align-items-center border-0 rounded-0 bg-secondary-subtle">
+                            <img src="Images/icon1.png" alt="">
+                            <div>
+                                <h5 class="m-0">Free Shipping</h5>
+                                <p>Select between a wide range of textbook and media</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card flex-row gap-3 p-3 align-items-center border-0 rounded-0 bg-secondary-subtle">
+                            <img src="Images/icon2.png" alt="">
+                            <div>
+                                <h5 class="m-0">Fast Delivery</h5>
+                                <p>Enjoy free shipping and our fast delivery service.</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Card 3 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card flex-row gap-3 p-3 align-items-center border-0 rounded-0 bg-secondary-subtle">
+                            <img src="Images/icon3.png" alt="">
+                            <div>
+                                <h5 class="m-0">Discount Offers</h5>
+                                <p>Get nice discount on our top rated products every Sunday.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- _________________FOOTER______________________ -->
+
+
+     <footer class="footer mt-4 shadow pt-3 bg-wihte ">
+
+        <section class="container-fluid px-4 mt-2 SectFooter1">
+            <div class="row g-4">
+
+                <!-- Bloc gauche -->
+                <div class="col-12 col-md-6">
+                    <div class="row g-4">
+
+                        <!-- Bloc Agritech App -->
+                      <div class="col-12 col-md-12 col-lg-6">
+                            <div>
+                                <h4><span class="underline-red">Contac </span>Us :</h4>
+
+                                <article class="d-flex align-items-center gap-2">
+                                    <i class="bi bi-geo-alt-fill fs-3"></i>
+                                    <aside>
+                                        <p class="m-0">1998 Wall Street 707,</p>
+                                        <p>Washingtonn DC, USA</p>
+                                    </aside>
+                                </article>
+
+                                <article class="d-flex align-items-center gap-2">
+                                    <i class="bi bi-envelope fs-3"></i>
+                                    <aside>
+                                        <p class="m-0">BookMart@gmail.com</p>
+                                        <p>support@gmail.com</p>
+                                    </aside>
+                                </article>
+
+                                <article class="d-flex align-items-center gap-2">
+                                    <i class="bi bi-telephone fs-3"></i>
+                                    <aside>
+                                        <p class="m-0">(80) 2345678</p>
+                                        <p>(84) 234567890</p>
+                                    </aside>
+                                </article>
+                            </div>
+                        </div>
+
+                        <!-- Bloc Liens Utiles -->
+                        <div class="col-12 col-md-12 col-lg-6">
+                            <div>
+                                <h4><span class="underline-red">Informa</span>tion</h4>
+                                <ul class="nav d-flex flex-column">
+                                    <li><a class="nav-link text-dark" href="#">Contac Us</a></li>
+                                    <li><a class="nav-link text-dark" href="#">Sit Maps</a></li>
+                                    <li><a class="nav-link text-dark" href="#">Privacy Policy</a></li>
+                                    <li><a class="nav-link text-dark" href="#">About Us</a></li>
+                                    <li><a class="nav-link text-dark" href="#">Custumer Service</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Bloc droit -->
+                <div class="col-12 col-md-6">
+                    <div class="row g-4">
+
+                        <!-- Bloc Nos Services -->
+                        <div class="col-12 col-md-12 col-lg-6">
+                            <div>
+                                <h4><span class="underline-red">My Acco</span>unt</h4>
+                                <ul class="nav d-flex flex-column">
+                                    <li><a class="nav-link text-dark" href="#">Sign in</a></li>
+                                    <li><a class="nav-link text-dark" href="#">View Cart</a></li>
+                                    <li><a class="nav-link text-dark" href="#">My Wishlist</a></li>
+                                    <li><a class="nav-link text-dark" href="#">Track My order</a></li>
+                                    <li><a class="nav-link text-dark" href="#">Help</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Bloc Contactez Nous -->
+                        <div class="col-12 col-md-12 col-lg-6">
+                            <div>
+                                <h4><span class="underline-red">Insta</span>gram</h4>
+
+                                <article class="d-flex align-items-center gap-2">
+                                  <div class="Footer_images">
+                                    <img src="Images/ins1.png" alt="">
+                                  </div>
+
+                                  <div class="Footer_images">
+                                    <img src="Images/ins2.png" alt="">
+                                  </div>
+
+                                  <div class="Footer_images">
+                                    <img src="Images/ins3.png" alt="">
+                                  </div>
+                                </article>
+
+                                <p class="Price">7 Day A Week From 8:00 AM To 5 PM </p>
+
+                                <article class="fs-4 d-flex gap-3">
+                                    <i class="bi bi-twitter-x"></i>
+                                    <i class="bi bi-facebook"></i>
+                                    <i class="bi bi-linkedin"></i>
+                                    <i class="bi bi-instagram"></i>
+                                    <i class="bi bi-tiktok"></i>
+                                </article>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

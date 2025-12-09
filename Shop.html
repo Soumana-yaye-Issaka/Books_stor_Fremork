@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BOOTIN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md d-flex justify-content-between p-3">
+        <div><h2>BOOTIN</h2></div>
+    
+        <!-- Bouton hamburger visible seulement sur mobile -->
+        <button class="navbar-toggler d-md-none" type="button" 
+                data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" 
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- MENU : visible sur mobile + tablette + desktop -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav gap-4 
+                    ">
+                <li class="nav-item">
+                    <a class="nav-link active nav_hover" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active nav_hover" href="Shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active nav_hover Page_actuelle" href="Post.html">Post</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active nav_hover" href="Contact.html">Contact</a>
+                </li>
+            
+            </ul>
+        </div>
+        <div class=" d-none d-md-flex fs-4 gap-4">
+            <article>
+                <i class="bi bi-suit-heart"></i>
+                <div class="Notification">3</div>
+            </article>
+            <article>
+                <i class="bi bi-bookmark"></i>
+                <div class="Notification">0</div>
+            </article>
+            <article>
+                <i class="bi bi-person-fill"></i>
+            </article>
+        </div>
+    </nav>
+
+
+    <section class="container-fluid text-white d-flex justify-content-center align-items-center Shop_Image">
+        <h2>Shop</h2>
+    </section>
+
+    <section class="container mt-5">
+
+        <div class="row gap-4">
+
+            <!-- 🔹 FILTRES — passe en bas sur mobile & tablette -->
+            <div class="col-12 col-lg-3 order-2 order-lg-1">
+
+                <div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control border-0 border-bottom" placeholder="Search Books.....">
+                        <button class="btn btn-outline-secondary bg-danger text-white"><i class="bi bi-search"></i></button>
+                    </div>
+
+                    <h3><span class="underline-red pb-2">Catego</span>ries</h3>
+                    <article class="mt-4">
+                        <p>Business (3)</p>
+                        <p>Classic (7)</p>
+                        <p>Drama (2)</p>
+                        <p>For Kids (13)</p>
+                        <p>Horror (16)</p>
+                        <p>Loved (1)</p>
+                    </article>
+                </div>
+
+                <div>
+                    <h3><span class="underline-red pb-2">Price</span></h3>
+                    <div class="mt-3">
+                        <input class="w-100" type="range">
+                        <article class="d-flex justify-content-between">
+                            <p>2.400 FCFA</p>
+                            <p>23.400 FCFA</p>
+                        </article>
+                    </div>
+                </div>
+
+                <div>
+                    <h3><span class="underline-red pb-2">Auth</span>or</h3>
+                    <div class="mt-3 d-flex flex-column gap-2">
+                        <article class="d-flex gap-2"><input type="checkbox" id="s1"><label for="s1"> Anna Hilton (3)</label></article>
+                        <article class="d-flex gap-2"><input type="checkbox" id="s2"><label for="s2"> Anna Hilton (4)</label></article>
+                        <article class="d-flex gap-2"><input type="checkbox" id="s3"><label for="s3"> Coco Simon (4)</label></article>
+                        <article class="d-flex gap-2"><input type="checkbox" id="s4"><label for="s4"> Nicolos Sumpir (3)</label></article>
+                        <article class="d-flex gap-2"><input type="checkbox" id="s5"><label for="s5"> Sabela Hupter (3)</label></article>
+                        <article class="d-flex gap-2"><input type="checkbox" id="s6"><label for="s6"> Susan Marrlin (3)</label></article>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <h3><span class="underline-red pb-2">Tags</span></h3>
+                    <div class="d-flex gap-3 mt-3">
+                        <article class="Tags_card d-flex justify-content-center Hover_red">Classic</article>
+                        <article class="Tags_card d-flex justify-content-center Hover_red">Horror</article>
+                        <article class="Tags_card d-flex justify-content-center Hover_red">Kids</article>
+                    </div>
+                    <div class="d-flex gap-3 mt-3">
+                        <article class="Tags_card d-flex justify-content-center Hover_red">Men</article>
+                        <article class="Tags_card d-flex justify-content-center Hover_red">Trend</article>
+                        <article class="Tags_card d-flex justify-content-center Hover_red">Woman</article>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!-- PRODUITS — passe en haut sur mobile & tablette -->
+            <div class="col-12 col-lg-8 order-1 order-lg-2">
+
+                <div class="row g-4">
+
+                    <!-- Carte 1 -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card border-0 align-items-center">
+                            <img src="Images/liv1.png" class="card-img-top w-75" alt="">
+                            <div class="card-body">
+                                <h4>The Book Mart</h4>
+                                <p class="card-text">Classic Literature</p>
+                                <p class="Price">19.400 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte 2 -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card border-0 align-items-center">
+                            <img src="Images/liv2.png" class="card-img-top w-75" alt="">
+                            <div class="card-body">
+                                <h4>Now you owe me</h4>
+                                <p class="card-text">Classic Literature</p>
+                                <p class="Price">21.400 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte 3 -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card border-0 align-items-center">
+                            <img src="Images/liv3.webp" class="card-img-top w-75" alt="">
+                            <div class="card-body">
+                                <h4>Hyper Focus</h4>
+                                <p class="card-text">Classic Literature</p>
+                                <p class="Price">18.400 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte 4 -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card border-0 align-items-center">
+                            <img src="Images/livre1.png" class="card-img-top w-75" alt="">
+                            <div class="card-body">
+                                <h4>The Book Mart</h4>
+                                <p class="card-text">Classic Literature</p>
+                                <p class="Price">19.400 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte 5 -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card border-0 align-items-center">
+                            <img src="Images/livre2.png" class="card-img-top w-75" alt="">
+                            <div class="card-body">
+                                <h4>The Book Mart</h4>
+                                <p class="card-text">Classic Literature</p>
+                                <p class="Price">19.400 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte 6 -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card border-0 align-items-center">
+                            <img src="Images/livre3.png" class="card-img-top w-75" alt="">
+                            <div class="card-body">
+                                <h4>The Book Mart</h4>
+                                <p class="card-text">Classic Literature</p>
+                                <p class="Price">19.400 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte 7 -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card border-0 align-items-center">
+                            <img src="Images/livre4.png" class="card-img-top w-75" alt="">
+                            <div class="card-body">
+                                <h4>The Book Mart</h4>
+                                <p class="card-text">Classic Literature</p>
+                                <p class="Price">19.400 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte 8 -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card border-0 align-items-center">
+                            <img src="Images/livre5.png" class="card-img-top w-75" alt="">
+                            <div class="card-body">
+                                <h4>The Book Mart</h4>
+                                <p class="card-text">Classic Literature</p>
+                                <p class="Price">19.400 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte 9 -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card border-0 align-items-center">
+                            <img src="Images/livre6.png" class="card-img-top w-75" alt="">
+                            <div class="card-body">
+                                <h4>The Book Mart</h4>
+                                <p class="card-text">Classic Literature</p>
+                                <p class="Price">19.400 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte 10 -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card border-0 align-items-center">
+                            <img src="Images/spec1.png" class="card-img-top w-75" alt="">
+                            <div class="card-body">
+                                <h4>The Book Mart</h4>
+                                <p class="card-text">Classic Literature</p>
+                                <p class="Price">19.400 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte 11 -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card border-0 align-items-center">
+                            <img src="Images/spec2.png" class="card-img-top w-75" alt="">
+                            <div class="card-body">
+                                <h4>The Book Mart</h4>
+                                <p class="card-text">Classic Literature</p>
+                                <p class="Price">19.400 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte 12 -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card border-0 align-items-center">
+                            <img src="Images/spec3.png" class="card-img-top w-75" alt="">
+                            <div class="card-body">
+                                <h4>The Book Mart</h4>
+                                <p class="card-text">Classic Literature</p>
+                                <p class="Price">19.400 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="container d-flex mt-4 align-items-center justify-content-center">
+        <nav aria-label="...">
+            <ul class="pagination pagination-lg gap-3">
+              <li class="page-item  " >
+                <a class="page-link rounded-0 bg-danger text-white" aria-current="page">1</a>
+              </li>
+              <li class="page-item"><a class="page-link text-dark Hover_red" href="#">2</a></li>
+              <li class="page-item"><a class="page-link rounded-0 text-dark Hover_red" href="#">3</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- _________________FOOTER______________________ -->
+
+
+     <footer class="footer mt-4 shadow pt-3 bg-wihte ">
+
+        <section class="container-fluid px-4 mt-2 SectFooter1">
+            <div class="row g-4">
+
+                <!-- Bloc gauche -->
+                <div class="col-12 col-md-6">
+                    <div class="row g-4">
+
+                        <!-- Bloc Agritech App -->
+                      <div class="col-12 col-md-12 col-lg-6">
+                            <div>
+                                <h4><span class="underline-red">Contac </span>Us :</h4>
+
+                                <article class="d-flex align-items-center gap-2">
+                                    <i class="bi bi-geo-alt-fill fs-3"></i>
+                                    <aside>
+                                        <p class="m-0">1998 Wall Street 707,</p>
+                                        <p>Washingtonn DC, USA</p>
+                                    </aside>
+                                </article>
+
+                                <article class="d-flex align-items-center gap-2">
+                                    <i class="bi bi-envelope fs-3"></i>
+                                    <aside>
+                                        <p class="m-0">BookMart@gmail.com</p>
+                                        <p>support@gmail.com</p>
+                                    </aside>
+                                </article>
+
+                                <article class="d-flex align-items-center gap-2">
+                                    <i class="bi bi-telephone fs-3"></i>
+                                    <aside>
+                                        <p class="m-0">(80) 2345678</p>
+                                        <p>(84) 234567890</p>
+                                    </aside>
+                                </article>
+                            </div>
+                        </div>
+
+                        <!-- Bloc Liens Utiles -->
+                        <div class="col-12 col-md-12 col-lg-6">
+                            <div>
+                                <h4><span class="underline-red">Informa</span>tion</h4>
+                                <ul class="nav d-flex flex-column">
+                                    <li><a class="nav-link text-dark" href="#">Contac Us</a></li>
+                                    <li><a class="nav-link text-dark" href="#">Sit Maps</a></li>
+                                    <li><a class="nav-link text-dark" href="#">Privacy Policy</a></li>
+                                    <li><a class="nav-link text-dark" href="#">About Us</a></li>
+                                    <li><a class="nav-link text-dark" href="#">Custumer Service</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Bloc droit -->
+                <div class="col-12 col-md-6">
+                    <div class="row g-4">
+
+                        <!-- Bloc Nos Services -->
+                        <div class="col-12 col-md-12 col-lg-6">
+                            <div>
+                                <h4><span class="underline-red">My Acco</span>unt</h4>
+                                <ul class="nav d-flex flex-column">
+                                    <li><a class="nav-link text-dark" href="#">Sign in</a></li>
+                                    <li><a class="nav-link text-dark" href="#">View Cart</a></li>
+                                    <li><a class="nav-link text-dark" href="#">My Wishlist</a></li>
+                                    <li><a class="nav-link text-dark" href="#">Track My order</a></li>
+                                    <li><a class="nav-link text-dark" href="#">Help</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Bloc Contactez Nous -->
+                        <div class="col-12 col-md-12 col-lg-6">
+                            <div>
+                                <h4><span class="underline-red">Insta</span>gram</h4>
+
+                                <article class="d-flex align-items-center gap-2">
+                                  <div class="Footer_images">
+                                    <img src="Images/ins1.png" alt="">
+                                  </div>
+
+                                  <div class="Footer_images">
+                                    <img src="Images/ins2.png" alt="">
+                                  </div>
+
+                                  <div class="Footer_images">
+                                    <img src="Images/ins3.png" alt="">
+                                  </div>
+                                </article>
+
+                                <p class="Price">7 Day A Week From 8:00 AM To 5 PM </p>
+
+                                <article class="fs-4 d-flex gap-3">
+                                    <i class="bi bi-twitter-x"></i>
+                                    <i class="bi bi-facebook"></i>
+                                    <i class="bi bi-linkedin"></i>
+                                    <i class="bi bi-instagram"></i>
+                                    <i class="bi bi-tiktok"></i>
+                                </article>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
