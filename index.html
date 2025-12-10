@@ -43,34 +43,48 @@
             </div>
         </div>
 
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
 
-                    <a class="navbar-brand d-md-none" href="#">BOOTIN</a>
-                    <button class="navbar-toggler d-md-none " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav d-flex justify-content-center w-100 gap-4">
-                            <li class="nav-item">
-                                <a class="nav-link active nav_hover Page_actuelle" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active nav_hover" aria-current="page" href="Shop.html">Shop</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active nav_hover" aria-current="page" href="Post.html">Post</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active nav_hover" aria-current="page" href="Contact.html">Contact</a>
-                            </li>
-                      </ul>
-                    </div>
+        <nav class="navbar navbar-expand-md">
+            
+            <div class="container-fluid">
+            
+                <!-- Logo visible uniquement sur mobile -->
+                <a class="navbar-brand d-md-none" href="#">BOOTIN</a>
+            
+                <!-- Bouton burger visible uniquement sur mobile -->
+                <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <!-- MENU -->
+                <!-- collapse activé uniquement sur mobile -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav w-100 gap-4 flex-md-row justify-content-md-center">
+                    
+                        <!-- Liens (horizontaux en md+, verticaux en mobile) -->
+                        <li class="nav-item">
+                            <a class="nav-link active nav_hover Page_actuelle" href="index.html">Home</a>
+                        </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link nav_hover" href="Shop.html">Shop</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link nav_hover" href="Post.html">Post</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link nav_hover" href="Contact.html">Contact</a>
+                        </li>
+                    
+                    </ul>
                 </div>
-            </nav>
-        </div>
+            
+            </div>
+        </nav>
+
     </header>
 
 
